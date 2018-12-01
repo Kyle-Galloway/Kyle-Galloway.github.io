@@ -2,10 +2,8 @@
 _gh_pages
 _site
 .ruby-version
-<<<<<<< HEAD
-=======
+
 .sass-cache
->>>>>>> bc0f3d4f5203669b11569ae6f6a53695bdbed12d
 
 # Numerous always-ignore extensions
 *.diff

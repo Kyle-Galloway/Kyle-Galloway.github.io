@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-=======
+
 # Poole
 
 *The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
@@ -29,12 +29,12 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 
 - [Usage](#usage)
 - [Options](#options)
-<<<<<<< HEAD
+
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
-=======
+
   - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
 - [Development](#development)
 - [Author](#author)
@@ -43,7 +43,7 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 
 ## Usage
 
-<<<<<<< HEAD
+
 Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
 
@@ -127,7 +127,7 @@ Hyde has two branches, but only one is used for active development.
 - `master` for development.  **All pull requests should be submitted against `master`.**
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
-=======
+
 ### 1. Install dependencies
 
 Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem:

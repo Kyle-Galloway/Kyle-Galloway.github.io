@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
@@ -25,7 +25,7 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
-=======
+
 # Permalinks
 permalink:           pretty
 
