@@ -23,7 +23,6 @@ There are currently two official themes built on Poole:
 * [Lanyon](http://lanyon.getpoole.com)
 
 Individual theme feedback and bug reports should be submitted to the theme's individual repository.
->>>>>>> bc0f3d4f5203669b11569ae6f6a53695bdbed12d
 
 
 ## Contents
@@ -37,7 +36,6 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
   - [Reverse layout](#reverse-layout)
 =======
   - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
->>>>>>> bc0f3d4f5203669b11569ae6f6a53695bdbed12d
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -206,8 +204,6 @@ Poole has two branches, but only one is used for active development.
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
->>>>>>> bc0f3d4f5203669b11569ae6f6a53695bdbed12d
-
 ## Author
 
 **Mark Otto**
