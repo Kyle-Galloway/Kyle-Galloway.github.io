@@ -7,18 +7,18 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            Kyle Galloway
+description:      'IT Graduate'
+url:              https://127.0.0.1:4000
+baseurl:          https://127.0.0.1:4000
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Kyle Galloway'
+  url:
+
 
 paginate:         5
-
+paginate_path: /Posts/post:num
 # Custom vars
 version:          2.1.0
 
@@ -29,10 +29,11 @@ github:
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
+title:               Kyle Galloway
+tagline:             IT Graduate
+url:                 https://127.0.0.1:4000
+ppaginate:         5
+paginate_path: /Posts/post:num
 baseurl:             ""
 
 # Assets
@@ -44,14 +45,16 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Kyle Galloway
+  url:
+  email:
 
 # Custom vars
+page_trailer_title: Hyde
+page_trailer_tagline: A Jekyll Theme
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/poole/hyde
 
 # Gems
 gems:
