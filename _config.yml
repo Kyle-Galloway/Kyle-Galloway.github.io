@@ -9,8 +9,8 @@ relative_permalinks: false
 # Setup
 title:            Kyle Galloway
 description:      'IT Graduate'
-url:              https://kylegalloway.co.uk
-baseurl:          https://kylegalloway.co.uk
+url:              https://www.kylegalloway.co.uk
+baseurl:          https://www.kylegalloway.co.uk
 
 author:
   name:           'Kyle Galloway'
@@ -31,7 +31,7 @@ permalink:           pretty
 # Setup
 title:               Kyle Galloway
 tagline:             IT Graduate
-url:                 https://kylegalloway.co.uk
+url:                 https://www.kylegalloway.co.uk
 ppaginate:         5
 paginate_path: /Posts/post:num
 baseurl:             ""
