@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for project in site.projects %}
+<div>
+    <h2>{{project.title}}</h2>
+    <h4>{{project.status}}</h4>
+    <p>{{project.description}}</p>
+</div>
+<div>
+    <img src={{project.screenshotURL}}>
+</div>
+{% endfor %}

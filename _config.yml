@@ -50,6 +50,11 @@ author:
   email:
 
 # Custom vars
+
+collections:
+  projects:
+    output: true
+
 page_trailer_title: Hyde
 page_trailer_tagline: A Jekyll Theme
 version:             2.0.0

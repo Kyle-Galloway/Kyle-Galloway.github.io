@@ -1,0 +1,31 @@
+---
+layout: page
+title: Projects
+---
+
+{% for project in site.projects %}
+{% if project.display == true%}
+<div style="background-color: #000000; height: 1px"></div>
+<div>
+    <h2>{{project.title}}</h2>
+    <h4>Status: <span style="{% if project.status == 'Active' %}color: #00cc00 {% elsif project.status == 'Support' %} color: #e36209 {% else %} color: #cc0000{% endif %}" title="Active: Features being developed and added. &#013Support: Only major issues being fixed.&#013Ended: No features being developed and no issues being fixes">{{project.status}}</span></h4>
+    <p>{{ project.description }}</p>
+    <span style="display: flex">
+
+    {% if project.appstore == true %}<a href="{{ project.appstoreURL }}"><img src="{{site.url}}/Assets/Images/App_Store.svg" height="84" width="220" style="vertical-align: bottom; margin: 0px 5px 0px 5px" ></a>{% endif %}
+    {% if project.playstore == true %}<a href="{{ project.playstoreURL }}"><img src="{{site.url}}/Assets/Images/Play_Store.png" height="76" width="220" style="vertical-align: bottom; margin: 0px 5px 0px 5px"></a>{% endif %}
+    {% if project.github == true %}<a href="{{ project.githubURL }}"><img src="{{site.url}}/Assets/Images/GitHub.png" height="76" width="220" style="vertical-align: bottom; margin: 0px 5px 0px 5px" ></a>{% endif %}
+    </span>
+
+
+
+
+
+
+
+</div>
+<div>
+    <img src={{project.screenshotURL}}>
+</div>
+{% endif%}
+{% endfor %}
